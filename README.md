@@ -1,20 +1,20 @@
 # Monitoramento e Cálculo de Anomalias de Precipitação CHIRPS por Município
 
-Sistema integrado para extração de dados via **Google Earth Engine (GEE)** e processamento desktop em **Python (Tkinter/ttk)** para validação, consolidação climatológica e cálculo de anomalias de precipitação no Brasil no nível municipal.
+Sistema integrado para extração de dados via **Google Earth Engine (GEE)** e processamento desktop em **Python (Tkinter/ttk)** para validação, consolidação climatológica e cálculo de anomalias de precipitação no Brasil em nível municipal.
 
 ---
 
-## 📌 Para que serve este projeto?
+## 📌 Contexto Legal e Propósito do Projeto
 
-O objetivo principal deste sistema é automatizar a avaliação de eventos extremos de precipitação (secas e acumulados excessivos de chuva) em todos os municípios brasileiros, utilizando a série temporal do satélite **CHIRPS v2** (*Climate Hazards Group InfraRed Precipitation with Station data*).
+Este projeto foi desenvolvido para fundamentar tecnicamente as análises e decisões relacionadas à **[Medida Provisória nº 1.376/2026](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/mpv/mpv1376.htm)**, permitindo identificar com precisão geográfica e rigor científico os municípios impactados por anomalias extremas de precipitação (secas severas ou eventos pluviométricos extraordinários).
 
-O sistema calcula a **Anomalia Relativa (%)** e a **Anomalia Absoluta (mm)** comparando a chuva observada no mês/ano com a **Normal Climatológica de 30 anos (1991–2020)**.
+O sistema automatiza o cálculo da **Anomalia Relativa (%)** e da **Anomalia Absoluta (mm)** comparando as precipitações mensais observadas da série histórica do satélite **CHIRPS v2** (*Climate Hazards Group InfraRed Precipitation with Station data*) com a **Normal Climatológica de 30 anos (1991–2020)**.
 
-### 🌍 Onde este projeto pode ser aplicado?
-* **Gestão de Recursos Hídricos & Comitês de Bacias**: Avaliação do impacto da escassez ou excesso de chuvas em reservatórios e mananciais.
-* **Defesa Civil & Monitoramento de Desastres**: Identificação de municípios em situação de emergência por estiagem ou tempestades severas.
-* **Agronegócio & Seguro Agrícola**: Análise de frustração de safra e risco de seca em escala municipal.
-* **Pesquisa Acadêmica & Geoprocessamento**: Processamento automatizado de dados raster de sensoriamento remoto em séries tabulares prontas para análise GIS.
+### 🌍 Aplicações Práticas
+* **Enquadramento em Normativos Federais (ex: MP 1376/2026)**: Subvenção, apoio financeiro e reconhecimento de calamidade pública ou emergência em municípios afetados por secas ou chuvas extremas.
+* **Gestão de Recursos Hídricos & Comitês de Bacias**: Avaliação de impacto na disponibilidade hídrica e vazão de reservatórios.
+* **Defesa Civil & Monitoramento de Desastres**: Identificação de municípios em risco iminente de desabastecimento ou inundação.
+* **Agronegócio & Seguro Agrícola**: Mapeamento de quebra de safra por estresse hídrico.
 
 ---
 
@@ -23,7 +23,7 @@ O sistema calcula a **Anomalia Relativa (%)** e a **Anomalia Absoluta (mm)** com
 ```mermaid
 flowchart TD
     subgraph GEE["1. Sensoriamento Remoto (Google Earth Engine)"]
-        A1["Asset IBGE 2025<br/>(BR_Municipios_2025)"] --> B1["normal_CHIRPS_1991_2020_mensal.js"]
+        A1["Asset Público IBGE 2025<br/>(BR_Municipios_2025)"] --> B1["normal_CHIRPS_1991_2020_mensal.js"]
         A1 --> B2["precipitacao_municipal_CHIRPS_anual.js"]
         CHIRPS["Série Diária CHIRPS v2<br/>(1991 - 2025)"] --> B1
         CHIRPS --> B2
@@ -99,10 +99,10 @@ pip install pandas ruff
 ### Passo 1: Gerar os Dados de Entrada no Google Earth Engine (GEE)
 
 1. Abra o [Google Earth Engine Code Editor](https://code.earthengine.google.com/).
-2. Certifique-se de importar o Asset municipal do IBGE ou ajuste o caminho `'projects/ee-atrigarashi/assets/IBGE/BR_Municipios_2025'` para a sua malha municipal no GEE.
+2. Os scripts utilizam o Asset de malha municipal `'projects/ee-atrigarashi/assets/IBGE/BR_Municipios_2025'`, que está **público e compartilhado para leitura**, permitindo que os scripts funcionem de forma pronta para qualquer usuário do Earth Engine.
 3. Execute o script `GEE_Scripts/normal_CHIRPS_1991_2020_mensal.js` para gerar os 12 arquivos mensais de climatologia normal (`normal_CHIRPS_1991_2020_mes_01.csv` até `mes_12.csv`) no seu Google Drive (pasta `GEE_precipitacao`).
 4. Execute o script `GEE_Scripts/precipitacao_municipal_CHIRPS_anual.js` para gerar os CSVs de precipitação observada por ano (`precipitacao_municipal_CHIRPS_2019.csv` a `2025.csv`).
-5. Faça o download dos CSVs exportados e salve-os na pasta local `assets/`.
+5. Faça o download dos CSVs exportados do Google Drive e salve-os na pasta local `assets/`.
 
 ### Passo 2: Executar a Aplicação Desktop Python
 
@@ -149,5 +149,6 @@ Ao finalizar o processamento na **Aba 4**, os produtos são gravados na pasta `a
 
 ## 📜 Licença e Fonte dos Dados
 
+* **Normativo de Referência**: [Medida Provisória nº 1.376/2026](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/mpv/mpv1376.htm).
 * **Precipitação Satélite**: [CHIRPS v2](https://www.chc.ucsb.edu/data/chirps) — *Climate Hazards Center / University of California, Santa Barbara*.
 * **Malha Territorial**: [IBGE](https://www.ibge.gov.br/) — *Instituto Brasileiro de Geografia e Estatística*.
