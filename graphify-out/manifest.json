@@ -163,5 +163,15 @@
     "mtime": 1783790695.4763756,
     "ast_hash": "c698309979460d0f02ba616417844399",
     "semantic_hash": ""
+  },
+  "C:\\Python\\MP1376\\GEE_Scripts\\normal_CHIRPS_1991_2020_mensal.js": {
+    "mtime": 1785877096.77311,
+    "ast_hash": "481cb313f4d2c8c6e1b050831fe21954",
+    "semantic_hash": ""
+  },
+  "C:\\Python\\MP1376\\GEE_Scripts\\precipitacao_municipal_CHIRPS_anual.js": {
+    "mtime": 1785877119.1485455,
+    "ast_hash": "4ec9e79ac3af2be5b72c14899a769a6d",
+    "semantic_hash": ""
   }
 }

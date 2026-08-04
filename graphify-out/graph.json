@@ -9,7 +9,7 @@
       "source_file": "anomalias.py",
       "source_location": "L1",
       "id": "anomalias_py",
-      "community": 2,
+      "community": 0,
       "norm_label": "anomalias.py"
     },
     {
@@ -18,7 +18,7 @@
       "source_file": "anomalias.py",
       "source_location": "L13",
       "id": "mp1376_anomalias_classificar_razao",
-      "community": 2,
+      "community": 0,
       "norm_label": "_classificar_razao()"
     },
     {
@@ -54,7 +54,7 @@
       "source_file": "app.py",
       "source_location": "L34",
       "id": "mp1376_app_aplicativochirps_init",
-      "community": 5,
+      "community": 1,
       "norm_label": ".__init__()"
     },
     {
@@ -63,7 +63,7 @@
       "source_file": "app.py",
       "source_location": "L65",
       "id": "mp1376_app_aplicativochirps_configurar_estilos",
-      "community": 5,
+      "community": 1,
       "norm_label": ".configurar_estilos()"
     },
     {
@@ -180,7 +180,7 @@
       "source_file": "app.py",
       "source_location": "L450",
       "id": "parametrosanomalia",
-      "community": 5,
+      "community": 2,
       "norm_label": "parametrosanomalia"
     },
     {
@@ -477,7 +477,7 @@
       "source_file": "app.py",
       "source_location": "L35",
       "id": "mp1376_app_rationale_35",
-      "community": 5,
+      "community": 1,
       "norm_label": "inicializa a janela principal do aplicativo e suas variaveis de estado."
     },
     {
@@ -486,7 +486,7 @@
       "source_file": "app.py",
       "source_location": "L66",
       "id": "mp1376_app_rationale_66",
-      "community": 5,
+      "community": 1,
       "norm_label": "configura a paleta de cores e os estilos dos componentes ttk."
     },
     {
@@ -819,7 +819,7 @@
       "source_file": "climatologia.py",
       "source_location": "L1",
       "id": "climatologia_py",
-      "community": 2,
+      "community": 0,
       "norm_label": "climatologia.py"
     },
     {
@@ -1075,247 +1075,58 @@
       "norm_label": "python-envs.defaultpackagemanager"
     },
     {
-      "label": "parametros_execucao_anomalias.json",
+      "label": "normal_CHIRPS_1991_2020_mensal.js",
       "file_type": "code",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
+      "source_file": "GEE_Scripts/normal_CHIRPS_1991_2020_mensal.js",
       "source_location": "L1",
-      "id": "assets_consolidado_parametros_execucao_anomalias_json",
+      "id": "gee_scripts_normal_chirps_1991_2020_mensal_js",
       "community": 7,
-      "norm_label": "parametros_execucao_anomalias.json"
+      "norm_label": "normal_chirps_1991_2020_mensal.js"
     },
     {
-      "label": "data_execucao",
+      "label": "gerarNormalMensal()",
       "file_type": "code",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
-      "source_location": "L2",
-      "id": "consolidado_parametros_execucao_anomalias_data_execucao",
+      "source_file": "GEE_Scripts/normal_CHIRPS_1991_2020_mensal.js",
+      "source_location": "L133",
+      "id": "gee_scripts_normal_chirps_1991_2020_mensal_gerarnormalmensal",
       "community": 7,
-      "norm_label": "data_execucao"
+      "norm_label": "gerarnormalmensal()"
     },
     {
-      "label": "arquivo_climatologia",
+      "label": "calcularMunicipiosPorMes()",
       "file_type": "code",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
-      "source_location": "L3",
-      "id": "consolidado_parametros_execucao_anomalias_arquivo_climatologia",
+      "source_file": "GEE_Scripts/normal_CHIRPS_1991_2020_mensal.js",
+      "source_location": "L173",
+      "id": "gee_scripts_normal_chirps_1991_2020_mensal_calcularmunicipiospormes",
       "community": 7,
-      "norm_label": "arquivo_climatologia"
+      "norm_label": "calcularmunicipiospormes()"
     },
     {
-      "label": "anos_processados",
+      "label": "precipitacao_municipal_CHIRPS_anual.js",
       "file_type": "code",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
-      "source_location": "L4",
-      "id": "consolidado_parametros_execucao_anomalias_anos_processados",
-      "community": 7,
-      "norm_label": "anos_processados"
+      "source_file": "GEE_Scripts/precipitacao_municipal_CHIRPS_anual.js",
+      "source_location": "L1",
+      "id": "gee_scripts_precipitacao_municipal_chirps_anual_js",
+      "community": 10,
+      "norm_label": "precipitacao_municipal_chirps_anual.js"
     },
     {
-      "label": "parametros",
+      "label": "calcularMes()",
       "file_type": "code",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
-      "source_location": "L13",
-      "id": "consolidado_parametros_execucao_anomalias_parametros",
-      "community": 7,
-      "norm_label": "parametros"
-    },
-    {
-      "label": "muito_abaixo",
-      "file_type": "code",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
-      "source_location": "L14",
-      "id": "consolidado_parametros_execucao_anomalias_parametros_muito_abaixo",
-      "community": 7,
-      "norm_label": "muito_abaixo"
-    },
-    {
-      "label": "abaixo",
-      "file_type": "code",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
-      "source_location": "L15",
-      "id": "consolidado_parametros_execucao_anomalias_parametros_abaixo",
-      "community": 7,
-      "norm_label": "abaixo"
-    },
-    {
-      "label": "ligeiramente_abaixo",
-      "file_type": "code",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
-      "source_location": "L16",
-      "id": "consolidado_parametros_execucao_anomalias_parametros_ligeiramente_abaixo",
-      "community": 7,
-      "norm_label": "ligeiramente_abaixo"
-    },
-    {
-      "label": "proximo_superior",
-      "file_type": "code",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
-      "source_location": "L17",
-      "id": "consolidado_parametros_execucao_anomalias_parametros_proximo_superior",
-      "community": 7,
-      "norm_label": "proximo_superior"
-    },
-    {
-      "label": "ligeiramente_acima",
-      "file_type": "code",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
-      "source_location": "L18",
-      "id": "consolidado_parametros_execucao_anomalias_parametros_ligeiramente_acima",
-      "community": 7,
-      "norm_label": "ligeiramente_acima"
-    },
-    {
-      "label": "acima",
-      "file_type": "code",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
-      "source_location": "L19",
-      "id": "consolidado_parametros_execucao_anomalias_parametros_acima",
-      "community": 7,
-      "norm_label": "acima"
-    },
-    {
-      "label": "muito_acima",
-      "file_type": "code",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
-      "source_location": "L20",
-      "id": "consolidado_parametros_execucao_anomalias_parametros_muito_acima",
-      "community": 7,
-      "norm_label": "muito_acima"
-    },
-    {
-      "label": "limiar_normal_mm",
-      "file_type": "code",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
-      "source_location": "L21",
-      "id": "consolidado_parametros_execucao_anomalias_parametros_limiar_normal_mm",
-      "community": 7,
-      "norm_label": "limiar_normal_mm"
-    },
-    {
-      "label": "arquivos_gerados",
-      "file_type": "code",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
-      "source_location": "L23",
-      "id": "consolidado_parametros_execucao_anomalias_arquivos_gerados",
-      "community": 7,
-      "norm_label": "arquivos_gerados"
-    },
-    {
-      "label": "mensal",
-      "file_type": "code",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
-      "source_location": "L24",
-      "id": "consolidado_parametros_execucao_anomalias_arquivos_gerados_mensal",
-      "community": 7,
-      "norm_label": "mensal"
-    },
-    {
-      "label": "anual",
-      "file_type": "code",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
-      "source_location": "L25",
-      "id": "consolidado_parametros_execucao_anomalias_arquivos_gerados_anual",
-      "community": 7,
-      "norm_label": "anual"
-    },
-    {
-      "label": "uf",
-      "file_type": "code",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
+      "source_file": "GEE_Scripts/precipitacao_municipal_CHIRPS_anual.js",
       "source_location": "L26",
-      "id": "consolidado_parametros_execucao_anomalias_arquivos_gerados_uf",
-      "community": 7,
-      "norm_label": "uf"
-    },
-    {
-      "label": "qualidade",
-      "file_type": "code",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
-      "source_location": "L27",
-      "id": "consolidado_parametros_execucao_anomalias_arquivos_gerados_qualidade",
-      "community": 7,
-      "norm_label": "qualidade"
-    },
-    {
-      "label": "perfil_anomalias_igarashi.json",
-      "file_type": "code",
-      "source_file": "perfis/perfil_anomalias_igarashi.json",
-      "source_location": "L1",
-      "id": "perfis_perfil_anomalias_igarashi_json",
+      "id": "gee_scripts_precipitacao_municipal_chirps_anual_calcularmes",
       "community": 10,
-      "norm_label": "perfil_anomalias_igarashi.json"
+      "norm_label": "calcularmes()"
     },
     {
-      "label": "muito_abaixo",
+      "label": "calcularAno()",
       "file_type": "code",
-      "source_file": "perfis/perfil_anomalias_igarashi.json",
-      "source_location": "L2",
-      "id": "perfis_perfil_anomalias_igarashi_muito_abaixo",
+      "source_file": "GEE_Scripts/precipitacao_municipal_CHIRPS_anual.js",
+      "source_location": "L67",
+      "id": "gee_scripts_precipitacao_municipal_chirps_anual_calcularano",
       "community": 10,
-      "norm_label": "muito_abaixo"
-    },
-    {
-      "label": "abaixo",
-      "file_type": "code",
-      "source_file": "perfis/perfil_anomalias_igarashi.json",
-      "source_location": "L3",
-      "id": "perfis_perfil_anomalias_igarashi_abaixo",
-      "community": 10,
-      "norm_label": "abaixo"
-    },
-    {
-      "label": "ligeiramente_abaixo",
-      "file_type": "code",
-      "source_file": "perfis/perfil_anomalias_igarashi.json",
-      "source_location": "L4",
-      "id": "perfis_perfil_anomalias_igarashi_ligeiramente_abaixo",
-      "community": 10,
-      "norm_label": "ligeiramente_abaixo"
-    },
-    {
-      "label": "proximo_superior",
-      "file_type": "code",
-      "source_file": "perfis/perfil_anomalias_igarashi.json",
-      "source_location": "L5",
-      "id": "perfis_perfil_anomalias_igarashi_proximo_superior",
-      "community": 10,
-      "norm_label": "proximo_superior"
-    },
-    {
-      "label": "ligeiramente_acima",
-      "file_type": "code",
-      "source_file": "perfis/perfil_anomalias_igarashi.json",
-      "source_location": "L6",
-      "id": "perfis_perfil_anomalias_igarashi_ligeiramente_acima",
-      "community": 10,
-      "norm_label": "ligeiramente_acima"
-    },
-    {
-      "label": "acima",
-      "file_type": "code",
-      "source_file": "perfis/perfil_anomalias_igarashi.json",
-      "source_location": "L7",
-      "id": "perfis_perfil_anomalias_igarashi_acima",
-      "community": 10,
-      "norm_label": "acima"
-    },
-    {
-      "label": "muito_acima",
-      "file_type": "code",
-      "source_file": "perfis/perfil_anomalias_igarashi.json",
-      "source_location": "L8",
-      "id": "perfis_perfil_anomalias_igarashi_muito_acima",
-      "community": 10,
-      "norm_label": "muito_acima"
-    },
-    {
-      "label": "limiar_normal_mm",
-      "file_type": "code",
-      "source_file": "perfis/perfil_anomalias_igarashi.json",
-      "source_location": "L9",
-      "id": "perfis_perfil_anomalias_igarashi_limiar_normal_mm",
-      "community": 10,
-      "norm_label": "limiar_normal_mm"
+      "norm_label": "calcularano()"
     },
     {
       "label": "CLAUDE.md",
@@ -1961,7 +1772,7 @@
       "file_type": "rationale",
       "source_file": "app.py",
       "source_location": "L34",
-      "community": 5,
+      "community": 1,
       "norm_label": "inicializa a janela principal do aplicativo e suas variaveis de estado.",
       "id": "mp1376_app_rationale_34"
     },
@@ -1970,7 +1781,7 @@
       "file_type": "rationale",
       "source_file": "app.py",
       "source_location": "L65",
-      "community": 5,
+      "community": 1,
       "norm_label": "configura a paleta de cores e os estilos dos componentes ttk.",
       "id": "mp1376_app_rationale_65"
     },
@@ -2276,7 +2087,7 @@
       "file_type": "rationale",
       "source_file": "app.py",
       "source_location": "L64",
-      "community": 5,
+      "community": 1,
       "norm_label": "configura a paleta de cores e os estilos dos componentes ttk.",
       "id": "mp1376_app_rationale_64"
     },
@@ -3409,9 +3220,9 @@
       "source_file": "app.py",
       "source_location": "L635",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_aplicativochirps",
-      "target": "mp1376_app_aplicativochirps_ao_concluir_thread_erro",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_ao_concluir_thread_erro"
     },
     {
       "relation": "method",
@@ -3419,9 +3230,9 @@
       "source_file": "app.py",
       "source_location": "L625",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_aplicativochirps",
-      "target": "mp1376_app_aplicativochirps_ao_concluir_thread_sucesso",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_ao_concluir_thread_sucesso"
     },
     {
       "relation": "method",
@@ -3589,9 +3400,9 @@
       "source_file": "app.py",
       "source_location": "L604",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_aplicativochirps",
-      "target": "mp1376_app_aplicativochirps_executar_em_thread",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_executar_em_thread"
     },
     {
       "relation": "method",
@@ -3799,9 +3610,9 @@
       "source_file": "app.py",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_28",
-      "target": "mp1376_app_aplicativochirps",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps"
     },
     {
       "relation": "calls",
@@ -3863,9 +3674,9 @@
       "source_file": "app.py",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_35",
-      "target": "mp1376_app_aplicativochirps_init",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_init"
     },
     {
       "relation": "rationale_for",
@@ -3893,9 +3704,9 @@
       "source_file": "app.py",
       "source_location": "L66",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_66",
-      "target": "mp1376_app_aplicativochirps_configurar_estilos",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_configurar_estilos"
     },
     {
       "relation": "calls",
@@ -4011,9 +3822,9 @@
       "source_file": "app.py",
       "source_location": "L135",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_135",
-      "target": "mp1376_app_aplicativochirps_criar_interface",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_criar_interface"
     },
     {
       "relation": "references",
@@ -4052,9 +3863,9 @@
       "source_file": "app.py",
       "source_location": "L178",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_178",
-      "target": "mp1376_app_aplicativochirps_criar_painel_badges",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_criar_painel_badges"
     },
     {
       "relation": "uses",
@@ -4302,9 +4113,9 @@
       "source_file": "app.py",
       "source_location": "L203",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_203",
-      "target": "mp1376_app_aplicativochirps_atualizar_badges",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_atualizar_badges"
     },
     {
       "relation": "rationale_for",
@@ -4332,9 +4143,9 @@
       "source_file": "app.py",
       "source_location": "L234",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_234",
-      "target": "mp1376_app_aplicativochirps_criar_quadro_pastas",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_criar_quadro_pastas"
     },
     {
       "relation": "rationale_for",
@@ -4417,9 +4228,9 @@
       "source_file": "app.py",
       "source_location": "L260",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_260",
-      "target": "mp1376_app_aplicativochirps_criar_area_texto",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_criar_area_texto"
     },
     {
       "relation": "rationale_for",
@@ -4490,9 +4301,9 @@
       "source_file": "app.py",
       "source_location": "L295",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_295",
-      "target": "mp1376_app_aplicativochirps_criar_aba_climatologia",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_criar_aba_climatologia"
     },
     {
       "relation": "rationale_for",
@@ -4531,9 +4342,9 @@
       "source_file": "app.py",
       "source_location": "L322",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_322",
-      "target": "mp1376_app_aplicativochirps_criar_aba_observados",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_criar_aba_observados"
     },
     {
       "relation": "rationale_for",
@@ -4583,9 +4394,9 @@
       "source_file": "app.py",
       "source_location": "L349",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_349",
-      "target": "mp1376_app_aplicativochirps_criar_aba_parametros",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_criar_aba_parametros"
     },
     {
       "relation": "rationale_for",
@@ -4646,9 +4457,9 @@
       "source_file": "app.py",
       "source_location": "L413",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_413",
-      "target": "mp1376_app_aplicativochirps_desenhar_gradiente_faixas",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_desenhar_gradiente_faixas"
     },
     {
       "relation": "rationale_for",
@@ -4731,9 +4542,9 @@
       "source_file": "app.py",
       "source_location": "L451",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_451",
-      "target": "mp1376_app_aplicativochirps_ler_parametros_interface",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_ler_parametros_interface"
     },
     {
       "relation": "rationale_for",
@@ -4826,9 +4637,9 @@
       "source_file": "app.py",
       "source_location": "L464",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_464",
-      "target": "mp1376_app_aplicativochirps_validar_parametros_interface",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_validar_parametros_interface"
     },
     {
       "relation": "rationale_for",
@@ -4921,9 +4732,9 @@
       "source_file": "app.py",
       "source_location": "L489",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_489",
-      "target": "mp1376_app_aplicativochirps_exibir_parametros",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_exibir_parametros"
     },
     {
       "relation": "rationale_for",
@@ -4951,9 +4762,9 @@
       "source_file": "app.py",
       "source_location": "L507",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_507",
-      "target": "mp1376_app_aplicativochirps_restaurar_parametros",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_restaurar_parametros"
     },
     {
       "relation": "rationale_for",
@@ -5014,9 +4825,9 @@
       "source_file": "app.py",
       "source_location": "L517",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_517",
-      "target": "mp1376_app_aplicativochirps_salvar_perfil_interface",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_salvar_perfil_interface"
     },
     {
       "relation": "rationale_for",
@@ -5066,9 +4877,9 @@
       "source_file": "app.py",
       "source_location": "L546",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_546",
-      "target": "mp1376_app_aplicativochirps_carregar_perfil_interface",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_carregar_perfil_interface"
     },
     {
       "relation": "rationale_for",
@@ -5118,9 +4929,9 @@
       "source_file": "app.py",
       "source_location": "L570",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_570",
-      "target": "mp1376_app_aplicativochirps_criar_aba_processar",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_criar_aba_processar"
     },
     {
       "relation": "rationale_for",
@@ -5139,9 +4950,9 @@
       "source_file": "app.py",
       "source_location": "L920",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_aplicativochirps_consolidar_climatologia_interface",
-      "target": "mp1376_app_aplicativochirps_executar_em_thread",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_executar_em_thread"
     },
     {
       "relation": "references",
@@ -5150,9 +4961,9 @@
       "source_file": "app.py",
       "source_location": "L604",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_aplicativochirps_executar_em_thread",
-      "target": "any",
-      "confidence_score": 1.0
+      "target": "any"
     },
     {
       "relation": "references",
@@ -5161,9 +4972,9 @@
       "source_file": "app.py",
       "source_location": "L604",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_aplicativochirps_executar_em_thread",
-      "target": "exception",
-      "confidence_score": 1.0
+      "target": "exception"
     },
     {
       "relation": "calls",
@@ -5172,9 +4983,9 @@
       "source_file": "app.py",
       "source_location": "L614",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_aplicativochirps_executar_em_thread",
-      "target": "mp1376_app_aplicativochirps_iniciar_progresso",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_iniciar_progresso"
     },
     {
       "relation": "calls",
@@ -5183,9 +4994,9 @@
       "source_file": "app.py",
       "source_location": "L754",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_aplicativochirps_processar_anomalias_interface",
-      "target": "mp1376_app_aplicativochirps_executar_em_thread",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_executar_em_thread"
     },
     {
       "relation": "calls",
@@ -5194,9 +5005,9 @@
       "source_file": "app.py",
       "source_location": "L852",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_aplicativochirps_verificar_climatologia",
-      "target": "mp1376_app_aplicativochirps_executar_em_thread",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_executar_em_thread"
     },
     {
       "relation": "calls",
@@ -5205,9 +5016,9 @@
       "source_file": "app.py",
       "source_location": "L958",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_aplicativochirps_verificar_observados",
-      "target": "mp1376_app_aplicativochirps_executar_em_thread",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_executar_em_thread"
     },
     {
       "relation": "rationale_for",
@@ -5215,9 +5026,9 @@
       "source_file": "app.py",
       "source_location": "L607",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_607",
-      "target": "mp1376_app_aplicativochirps_executar_em_thread",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_executar_em_thread"
     },
     {
       "relation": "uses",
@@ -5236,9 +5047,9 @@
       "source_file": "app.py",
       "source_location": "L625",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_aplicativochirps_ao_concluir_thread_sucesso",
-      "target": "any",
-      "confidence_score": 1.0
+      "target": "any"
     },
     {
       "relation": "references",
@@ -5268,9 +5079,9 @@
       "source_file": "app.py",
       "source_location": "L17",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "exception",
-      "target": "mp1376_parametros_parametrosanomalia",
-      "confidence_score": 0.5
+      "target": "mp1376_parametros_parametrosanomalia"
     },
     {
       "relation": "references",
@@ -5279,9 +5090,9 @@
       "source_file": "app.py",
       "source_location": "L635",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_aplicativochirps_ao_concluir_thread_erro",
-      "target": "exception",
-      "confidence_score": 1.0
+      "target": "exception"
     },
     {
       "relation": "calls",
@@ -5290,9 +5101,9 @@
       "source_file": "app.py",
       "source_location": "L632",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_aplicativochirps_ao_concluir_thread_sucesso",
-      "target": "mp1376_app_aplicativochirps_parar_progresso",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_parar_progresso"
     },
     {
       "relation": "rationale_for",
@@ -5300,9 +5111,9 @@
       "source_file": "app.py",
       "source_location": "L626",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_626",
-      "target": "mp1376_app_aplicativochirps_ao_concluir_thread_sucesso",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_ao_concluir_thread_sucesso"
     },
     {
       "relation": "calls",
@@ -5311,9 +5122,9 @@
       "source_file": "app.py",
       "source_location": "L642",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_aplicativochirps_ao_concluir_thread_erro",
-      "target": "mp1376_app_aplicativochirps_parar_progresso",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_parar_progresso"
     },
     {
       "relation": "rationale_for",
@@ -5321,9 +5132,9 @@
       "source_file": "app.py",
       "source_location": "L636",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_636",
-      "target": "mp1376_app_aplicativochirps_ao_concluir_thread_erro",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_ao_concluir_thread_erro"
     },
     {
       "relation": "calls",
@@ -5374,9 +5185,9 @@
       "source_file": "app.py",
       "source_location": "L649",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_649",
-      "target": "mp1376_app_aplicativochirps_revisar_pre_requisitos",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_revisar_pre_requisitos"
     },
     {
       "relation": "rationale_for",
@@ -5470,9 +5281,9 @@
       "source_file": "app.py",
       "source_location": "L685",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_685",
-      "target": "mp1376_app_aplicativochirps_processar_anomalias_interface",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_processar_anomalias_interface"
     },
     {
       "relation": "rationale_for",
@@ -5500,9 +5311,9 @@
       "source_file": "app.py",
       "source_location": "L757",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_757",
-      "target": "mp1376_app_aplicativochirps_criar_barra_status",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_criar_barra_status"
     },
     {
       "relation": "rationale_for",
@@ -5541,9 +5352,9 @@
       "source_file": "app.py",
       "source_location": "L769",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_769",
-      "target": "mp1376_app_aplicativochirps_animar_progresso",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_animar_progresso"
     },
     {
       "relation": "calls",
@@ -5594,9 +5405,9 @@
       "source_file": "app.py",
       "source_location": "L776",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_776",
-      "target": "mp1376_app_aplicativochirps_iniciar_progresso",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_iniciar_progresso"
     },
     {
       "relation": "rationale_for",
@@ -5657,9 +5468,9 @@
       "source_file": "app.py",
       "source_location": "L784",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_784",
-      "target": "mp1376_app_aplicativochirps_parar_progresso",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_parar_progresso"
     },
     {
       "relation": "rationale_for",
@@ -5709,9 +5520,9 @@
       "source_file": "app.py",
       "source_location": "L791",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_791",
-      "target": "mp1376_app_aplicativochirps_selecionar_pasta_assets",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_selecionar_pasta_assets"
     },
     {
       "relation": "rationale_for",
@@ -5750,9 +5561,9 @@
       "source_file": "app.py",
       "source_location": "L804",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_804",
-      "target": "mp1376_app_aplicativochirps_selecionar_pasta_saida",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_selecionar_pasta_saida"
     },
     {
       "relation": "rationale_for",
@@ -5780,9 +5591,9 @@
       "source_file": "app.py",
       "source_location": "L820",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_820",
-      "target": "mp1376_app_aplicativochirps_invalidar_validacoes",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_invalidar_validacoes"
     },
     {
       "relation": "rationale_for",
@@ -5843,9 +5654,9 @@
       "source_file": "app.py",
       "source_location": "L828",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_828",
-      "target": "mp1376_app_aplicativochirps_verificar_climatologia",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_verificar_climatologia"
     },
     {
       "relation": "rationale_for",
@@ -5895,9 +5706,9 @@
       "source_file": "app.py",
       "source_location": "L855",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_855",
-      "target": "mp1376_app_aplicativochirps_exibir_climatologia",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_exibir_climatologia"
     },
     {
       "relation": "rationale_for",
@@ -5990,9 +5801,9 @@
       "source_file": "app.py",
       "source_location": "L882",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_882",
-      "target": "mp1376_app_aplicativochirps_consolidar_climatologia_interface",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_consolidar_climatologia_interface"
     },
     {
       "relation": "rationale_for",
@@ -6042,9 +5853,9 @@
       "source_file": "app.py",
       "source_location": "L923",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_923",
-      "target": "mp1376_app_aplicativochirps_caminho_climatologia",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_caminho_climatologia"
     },
     {
       "relation": "rationale_for",
@@ -6192,9 +6003,9 @@
       "source_file": "app.py",
       "source_location": "L929",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_929",
-      "target": "mp1376_app_aplicativochirps_verificar_observados",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_verificar_observados"
     },
     {
       "relation": "rationale_for",
@@ -6233,9 +6044,9 @@
       "source_file": "app.py",
       "source_location": "L961",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_961",
-      "target": "mp1376_app_aplicativochirps_exibir_observados",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_exibir_observados"
     },
     {
       "relation": "rationale_for",
@@ -6253,9 +6064,9 @@
       "source_file": "app.py",
       "source_location": "L1000",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_1000",
-      "target": "mp1376_app_aplicativochirps_atualizar_texto",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_atualizar_texto"
     },
     {
       "relation": "rationale_for",
@@ -6283,9 +6094,9 @@
       "source_file": "app.py",
       "source_location": "L1022",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mp1376_app_rationale_1022",
-      "target": "mp1376_app_aplicativochirps_limpar_texto",
-      "confidence_score": 1.0
+      "target": "mp1376_app_aplicativochirps_limpar_texto"
     },
     {
       "relation": "rationale_for",
@@ -6640,252 +6451,64 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
-      "source_location": "L4",
+      "source_file": "GEE_Scripts/normal_CHIRPS_1991_2020_mensal.js",
+      "source_location": "L173",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "assets_consolidado_parametros_execucao_anomalias_json",
-      "target": "consolidado_parametros_execucao_anomalias_anos_processados"
+      "source": "gee_scripts_normal_chirps_1991_2020_mensal_js",
+      "target": "gee_scripts_normal_chirps_1991_2020_mensal_calcularmunicipiospormes",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
-      "source_location": "L3",
+      "source_file": "GEE_Scripts/normal_CHIRPS_1991_2020_mensal.js",
+      "source_location": "L133",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "assets_consolidado_parametros_execucao_anomalias_json",
-      "target": "consolidado_parametros_execucao_anomalias_arquivo_climatologia"
+      "source": "gee_scripts_normal_chirps_1991_2020_mensal_js",
+      "target": "gee_scripts_normal_chirps_1991_2020_mensal_gerarnormalmensal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "GEE_Scripts/normal_CHIRPS_1991_2020_mensal.js",
+      "source_location": "L175",
+      "weight": 1.0,
+      "source": "gee_scripts_normal_chirps_1991_2020_mensal_calcularmunicipiospormes",
+      "target": "gee_scripts_normal_chirps_1991_2020_mensal_gerarnormalmensal",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
-      "source_location": "L23",
+      "source_file": "GEE_Scripts/precipitacao_municipal_CHIRPS_anual.js",
+      "source_location": "L67",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "assets_consolidado_parametros_execucao_anomalias_json",
-      "target": "consolidado_parametros_execucao_anomalias_arquivos_gerados"
+      "source": "gee_scripts_precipitacao_municipal_chirps_anual_js",
+      "target": "gee_scripts_precipitacao_municipal_chirps_anual_calcularano",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "assets_consolidado_parametros_execucao_anomalias_json",
-      "target": "consolidado_parametros_execucao_anomalias_data_execucao"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "assets_consolidado_parametros_execucao_anomalias_json",
-      "target": "consolidado_parametros_execucao_anomalias_parametros"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "consolidado_parametros_execucao_anomalias_parametros",
-      "target": "consolidado_parametros_execucao_anomalias_parametros_abaixo"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "consolidado_parametros_execucao_anomalias_parametros",
-      "target": "consolidado_parametros_execucao_anomalias_parametros_acima"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "consolidado_parametros_execucao_anomalias_parametros",
-      "target": "consolidado_parametros_execucao_anomalias_parametros_ligeiramente_abaixo"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "consolidado_parametros_execucao_anomalias_parametros",
-      "target": "consolidado_parametros_execucao_anomalias_parametros_ligeiramente_acima"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
-      "source_location": "L21",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "consolidado_parametros_execucao_anomalias_parametros",
-      "target": "consolidado_parametros_execucao_anomalias_parametros_limiar_normal_mm"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "consolidado_parametros_execucao_anomalias_parametros",
-      "target": "consolidado_parametros_execucao_anomalias_parametros_muito_abaixo"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
-      "source_location": "L20",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "consolidado_parametros_execucao_anomalias_parametros",
-      "target": "consolidado_parametros_execucao_anomalias_parametros_muito_acima"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "consolidado_parametros_execucao_anomalias_parametros",
-      "target": "consolidado_parametros_execucao_anomalias_parametros_proximo_superior"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
-      "source_location": "L25",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "consolidado_parametros_execucao_anomalias_arquivos_gerados",
-      "target": "consolidado_parametros_execucao_anomalias_arquivos_gerados_anual"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
-      "source_location": "L24",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "consolidado_parametros_execucao_anomalias_arquivos_gerados",
-      "target": "consolidado_parametros_execucao_anomalias_arquivos_gerados_mensal"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
-      "source_location": "L27",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "consolidado_parametros_execucao_anomalias_arquivos_gerados",
-      "target": "consolidado_parametros_execucao_anomalias_arquivos_gerados_qualidade"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "assets/consolidado/parametros_execucao_anomalias.json",
+      "source_file": "GEE_Scripts/precipitacao_municipal_CHIRPS_anual.js",
       "source_location": "L26",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "consolidado_parametros_execucao_anomalias_arquivos_gerados",
-      "target": "consolidado_parametros_execucao_anomalias_arquivos_gerados_uf"
+      "source": "gee_scripts_precipitacao_municipal_chirps_anual_js",
+      "target": "gee_scripts_precipitacao_municipal_chirps_anual_calcularmes",
+      "confidence_score": 1.0
     },
     {
-      "relation": "contains",
+      "relation": "calls",
+      "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "perfis/perfil_anomalias_igarashi.json",
-      "source_location": "L3",
+      "source_file": "GEE_Scripts/precipitacao_municipal_CHIRPS_anual.js",
+      "source_location": "L71",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "perfis_perfil_anomalias_igarashi_json",
-      "target": "perfis_perfil_anomalias_igarashi_abaixo"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "perfis/perfil_anomalias_igarashi.json",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "perfis_perfil_anomalias_igarashi_json",
-      "target": "perfis_perfil_anomalias_igarashi_acima"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "perfis/perfil_anomalias_igarashi.json",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "perfis_perfil_anomalias_igarashi_json",
-      "target": "perfis_perfil_anomalias_igarashi_ligeiramente_abaixo"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "perfis/perfil_anomalias_igarashi.json",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "perfis_perfil_anomalias_igarashi_json",
-      "target": "perfis_perfil_anomalias_igarashi_ligeiramente_acima"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "perfis/perfil_anomalias_igarashi.json",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "perfis_perfil_anomalias_igarashi_json",
-      "target": "perfis_perfil_anomalias_igarashi_limiar_normal_mm"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "perfis/perfil_anomalias_igarashi.json",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "perfis_perfil_anomalias_igarashi_json",
-      "target": "perfis_perfil_anomalias_igarashi_muito_abaixo"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "perfis/perfil_anomalias_igarashi.json",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "perfis_perfil_anomalias_igarashi_json",
-      "target": "perfis_perfil_anomalias_igarashi_muito_acima"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "perfis/perfil_anomalias_igarashi.json",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "perfis_perfil_anomalias_igarashi_json",
-      "target": "perfis_perfil_anomalias_igarashi_proximo_superior"
+      "source": "gee_scripts_precipitacao_municipal_chirps_anual_calcularano",
+      "target": "gee_scripts_precipitacao_municipal_chirps_anual_calcularmes",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8838,5 +8461,6 @@
       "target": "validacoes_validar_conjunto_climatologia"
     }
   ],
-  "hyperedges": []
+  "hyperedges": [],
+  "built_at_commit": "b2ddd2ee041ddca0368d1e2c616a2bed86b71c43"
 }

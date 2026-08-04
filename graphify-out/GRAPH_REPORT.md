@@ -1,13 +1,18 @@
 # Graph Report - MP1376  (2026-08-04)
 
 ## Corpus Check
-- 24 files · ~16,651 words
+- 24 files · ~17,732 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 340 nodes · 548 edges · 27 communities (18 shown, 9 thin omitted)
+- 319 nodes · 529 edges · 27 communities (16 shown, 11 thin omitted)
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 18 edges (avg confidence: 0.63)
 - Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `b2ddd2ee`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - [[_COMMUNITY_AplicativoCHIRPS|AplicativoCHIRPS]]
@@ -46,8 +51,8 @@
 6. `/graphify` - 11 edges
 7. `Frame` - 10 edges
 8. `validar_parametros()` - 10 edges
-9. `parametros` - 9 edges
-10. `validar_parametros()` - 9 edges
+9. `validar_parametros()` - 9 edges
+10. `graphify reference: extra exports and benchmark` - 8 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `bool` --uses--> `ParametrosAnomalia`  [INFERRED]
@@ -58,22 +63,22 @@
   app.py → parametros.py
 - `Text` --uses--> `ParametrosAnomalia`  [INFERRED]
   app.py → parametros.py
-- `ParametrosAnomalia` --uses--> `ParametrosAnomalia`  [INFERRED]
+- `Any` --uses--> `ParametrosAnomalia`  [INFERRED]
   app.py → parametros.py
 
-## Communities (27 total, 9 thin omitted)
+## Communities (27 total, 11 thin omitted)
 
 ### Community 0 - "AplicativoCHIRPS"
-Cohesion: 0.12
-Nodes (10): _classificar_razao(), processar_anomalias(), AplicativoCHIRPS, consolidar_climatologia(), Consolida os DataFrames já validados e grava os produtos em CSV., carregar_perfil(), descrever_faixas(), ParametrosAnomalia (+2 more)
+Cohesion: 0.11
+Nodes (11): _classificar_razao(), processar_anomalias(), AplicativoCHIRPS, consolidar_climatologia(), Consolida os DataFrames já validados e grava os produtos em CSV., _classificar_razao(), carregar_perfil(), descrever_faixas() (+3 more)
 
 ### Community 1 - ".exibir_parametros"
-Cohesion: 0.07
-Nodes (35): Frame, AplicativoCHIRPS, Limpa todo o conteúdo de uma área de texto., Limpa todo o conteúdo de uma área de texto.          Args:             widget: W, Constrói a estrutura principal da interface gráfica., Constrói a estrutura principal da interface gráfica., Constrói a estrutura principal da interface gráfica., Cria a barra visual com o status de cada etapa do processo.          Args: (+27 more)
+Cohesion: 0.06
+Nodes (40): Frame, AplicativoCHIRPS, Limpa todo o conteúdo de uma área de texto., Limpa todo o conteúdo de uma área de texto.          Args:             widget: W, Constrói a estrutura principal da interface gráfica., Constrói a estrutura principal da interface gráfica., Constrói a estrutura principal da interface gráfica., Cria a barra visual com o status de cada etapa do processo.          Args: (+32 more)
 
 ### Community 2 - "app.py"
-Cohesion: 0.12
-Nodes (22): _classificar_razao(), processar_anomalias(), Exibe a descrição textual das faixas na área de texto de parâmetros., Exibe a descrição textual das faixas na área de texto de parâmetros., Salva o perfil atual de parâmetros em um arquivo JSON., Salva o perfil atual de parâmetros em um arquivo JSON., Exibe a descrição textual das faixas na área de texto de parâmetros.          Ar, Carrega um perfil salvo de parâmetros JSON. (+14 more)
+Cohesion: 0.13
+Nodes (22): processar_anomalias(), Exibe a descrição textual das faixas na área de texto de parâmetros., Exibe a descrição textual das faixas na área de texto de parâmetros., Salva o perfil atual de parâmetros em um arquivo JSON., Salva o perfil atual de parâmetros em um arquivo JSON., Exibe a descrição textual das faixas na área de texto de parâmetros.          Ar, Carrega um perfil salvo de parâmetros JSON., Carrega um perfil salvo de parâmetros JSON. (+14 more)
 
 ### Community 3 - "validar_conjunto_climatologia"
 Cohesion: 0.33
@@ -84,16 +89,12 @@ Cohesion: 0.07
 Nodes (26): For /graphify add and --watch, For /graphify query, For the commit hook and native CLAUDE.md integration, For --update and --cluster-only, /graphify, Honesty Rules, Interpreter guard for subcommands, Part A - Structural extraction for code files (+18 more)
 
 ### Community 5 - "validar_conjunto_observados"
-Cohesion: 0.06
-Nodes (31): bool, Atualiza o estado e a cor dos badges de etapas da interface., Atualiza o estado e a cor dos badges de etapas da interface., Atualiza o estado e a cor dos badges de etapas da interface., Inicializa a janela principal do aplicativo e suas variáveis de estado., Inicializa a janela principal do aplicativo e suas variáveis de estado., Desenha visualmente no Canvas a escala gráfica das faixas de anomalia., Desenha visualmente no Canvas a escala gráfica das faixas de anomalia. (+23 more)
+Cohesion: 0.07
+Nodes (25): bool, Atualiza o estado e a cor dos badges de etapas da interface., Atualiza o estado e a cor dos badges de etapas da interface., Atualiza o estado e a cor dos badges de etapas da interface., Desenha visualmente no Canvas a escala gráfica das faixas de anomalia., Desenha visualmente no Canvas a escala gráfica das faixas de anomalia., Desenha visualmente no Canvas a escala gráfica das faixas de anomalia., Lê os parâmetros numéricos dos campos de texto da interface. (+17 more)
 
 ### Community 6 - "Community 6"
 Cohesion: 0.06
 Nodes (34): Any, Exception, Atualiza a área de texto aplicando estilos coloridos por linha., Atualiza a área de texto aplicando estilos coloridos por linha.          Args:, Executa tarefas computacionais pesadas em uma background thread desacoplada da U, Trata o retorno de sucesso na thread principal Tkinter.          Args:, Trata exceções na thread principal Tkinter.          Args:             erro: Exc, Executa o processamento final de cálculo de anomalias. (+26 more)
-
-### Community 7 - "Community 7"
-Cohesion: 0.11
-Nodes (17): anos_processados, arquivo_climatologia, arquivos_gerados, anual, mensal, qualidade, uf, data_execucao (+9 more)
 
 ### Community 8 - "Community 8"
 Cohesion: 0.22
@@ -102,10 +103,6 @@ Nodes (8): graphify reference: extra exports and benchmark, Step 6b - Wiki (only
 ### Community 9 - "Community 9"
 Cohesion: 0.33
 Nodes (8): extrair_mes_do_nome(), Extrai o número do mês a partir de nomes como:      normal_CHIRPS_1991_2020_me, Abre e valida um arquivo mensal da climatologia.      Retorna um dicionário co, Verifica a presença dos 12 arquivos mensais da climatologia.      Retorna um d, Valida os nomes e o conteúdo dos 12 arquivos mensais.      Também verifica se, validar_conjunto_climatologia(), validar_conteudo_arquivo_climatologia(), verificar_arquivos_climatologia()
-
-### Community 10 - "Community 10"
-Cohesion: 0.22
-Nodes (8): abaixo, acima, ligeiramente_abaixo, ligeiramente_acima, limiar_normal_mm, muito_abaixo, muito_acima, proximo_superior
 
 ### Community 11 - "Community 11"
 Cohesion: 0.33
@@ -132,24 +129,24 @@ Cohesion: 0.25
 Nodes (6): Abre o seletor de diretórios para selecionar a pasta de assets., Invalida os resultados de validações prévias ao alterar diretórios., Abre o seletor de diretórios para selecionar a pasta de assets., Abre o seletor de diretórios para selecionar a pasta de assets., Invalida os resultados de validações prévias ao alterar diretórios., Invalida os resultados de validações prévias ao alterar diretórios.
 
 ## Knowledge Gaps
-- **72 isolated node(s):** `PreToolUse`, `python-envs.defaultEnvManager`, `python-envs.defaultPackageManager`, `data_execucao`, `arquivo_climatologia` (+67 more)
+- **49 isolated node(s):** `PreToolUse`, `python-envs.defaultEnvManager`, `python-envs.defaultPackageManager`, `graphify`, `graphify` (+44 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **9 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **11 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `AplicativoCHIRPS` connect `.exibir_parametros` to `app.py`, `Community 29`, `validar_conjunto_observados`, `Community 6`?**
-  _High betweenness centrality (0.289) - this node is a cross-community bridge._
+  _High betweenness centrality (0.328) - this node is a cross-community bridge._
 - **Why does `Path` connect `app.py` to `Community 9`, `Community 29`, `validar_conjunto_observados`, `Community 6`?**
-  _High betweenness centrality (0.029) - this node is a cross-community bridge._
+  _High betweenness centrality (0.033) - this node is a cross-community bridge._
 - **Are the 9 inferred relationships involving `Path` (e.g. with `processar_anomalias()` and `consolidar_climatologia()`) actually correct?**
   _`Path` has 9 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 9 inferred relationships involving `ParametrosAnomalia` (e.g. with `Any` and `bool`) actually correct?**
   _`ParametrosAnomalia` has 9 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `Aplicativo desktop para validação, consolidação e cálculo de anomalias CHIRPS.`, `Inicializa a janela principal do aplicativo e suas variáveis de estado.`, `Configura a paleta de cores e os estilos dos componentes ttk.` to the rest of the system?**
-  _188 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _165 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `AplicativoCHIRPS` be split into smaller, more focused modules?**
-  _Cohesion score 0.11738648947951273 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.10628019323671498 - nodes in this community are weakly interconnected._
 - **Should `.exibir_parametros` be split into smaller, more focused modules?**
-  _Cohesion score 0.06767676767676768 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.05731523378582202 - nodes in this community are weakly interconnected._
