@@ -16,9 +16,10 @@ env/
 .DS_Store
 Thumbs.db
 
-# Configurações locais de Agentes AI e Indexação de Conhecimento
+# Configurações locais de Agentes AI, Instruções de IA e Indexação de Conhecimento
 .agents/
 .claude/
+CLAUDE.md
 graphify-out/
 .graphifyignore
 
