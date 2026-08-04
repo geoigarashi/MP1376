@@ -16,12 +16,13 @@ env/
 .DS_Store
 Thumbs.db
 
+# Configurações locais de Agentes AI e Indexação de Conhecimento
+.agents/
+.claude/
+graphify-out/
+.graphifyignore
+
 # Conjuntos de dados pesados e produtos gerados
 assets/*.csv
 assets/consolidado/
 perfis/*.json
-
-# Arquivos temporários e backups do Graphify
-graphify-out/cache/
-graphify-out/20*
-graphify-out/.graphify_*
