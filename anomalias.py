@@ -1,5 +1,6 @@
 import json
 from dataclasses import asdict
+from typing import Any
 from datetime import datetime
 from pathlib import Path
 
@@ -10,15 +11,15 @@ from config import MESES
 from parametros import validar_parametros
 
 
-def _classificar_razao(razao, p):
+def _classificar_razao(razao: np.ndarray, p: Any) -> np.ndarray:
     condicoes = [
         razao < p.muito_abaixo,
         razao < p.abaixo,
         razao < p.ligeiramente_abaixo,
         razao <= p.proximo_superior,
         razao <= p.ligeiramente_acima,
-        razao <= p.muito_acima,
-        razao > p.muito_acima,
+        razao <= p.acima,
+        razao > p.acima,
     ]
     classes = [
         "MUITO_ABAIXO",
