@@ -63,8 +63,8 @@ MP1376/
 ├── anomalias.py                              # Motor de cálculo das anomalias e enquadramento nas faixas
 ├── config.py                                 # Constantes globais e padrões de caminhos/arquivos
 ├── perfis/                                   # Perfis salvos de parâmetros (JSON)
-├── assets/                                   # Diretório padrão para os arquivos CSV gerados
-│   └── consolidado/                          # Produtos finais e relatórios gravados pela aplicação
+├── assets/                                   # CSVs base pré-carregados (12 meses climatologia + 7 anos observados)
+│   └── consolidado/                          # Produtos finais e relatórios gerados localmente pela aplicação
 ├── .gitignore                                # Regras de exclusão do Git
 └── README.md                                 # Documentação oficial do repositório
 ```
@@ -75,7 +75,7 @@ MP1376/
 
 ### 1. Dependências do Sistema
 * **Python 3.12 ou superior**
-* **Google Earth Engine (Conta ativa)** para execução das extrações de sensoriamento remoto.
+* **Google Earth Engine (Opcional)**: Apenas se desejar extrair novos dados para outros anos via GEE.
 
 ### 2. Instalação das Bibliotecas Python
 Recomenda-se utilizar um ambiente virtual (`venv` ou `conda`):
@@ -96,7 +96,10 @@ pip install pandas ruff
 
 ## 🚀 Guia de Uso Passo a Passo
 
-### Passo 1: Gerar os Dados de Entrada no Google Earth Engine (GEE)
+> [!TIP]
+> **Execução Imediata (Out of the Box)**: O repositório já inclui na pasta `assets/` todos os dados base de entrada necessários (12 arquivos da Climatologia Normal 1991–2020 e 7 arquivos de Séries Observadas 2019–2025). Você pode ir direto para o **Passo 2** e rodar a aplicação Python (`python app.py`) imediatamente! O **Passo 1 (GEE)** é necessário apenas caso queira gerar dados para outros anos.
+
+### Passo 1: Gerar Novos Dados no Google Earth Engine (Opcional)
 
 1. Abra o [Google Earth Engine Code Editor](https://code.earthengine.google.com/).
 2. Os scripts utilizam o Asset de malha municipal `'projects/ee-atrigarashi/assets/IBGE/BR_Municipios_2025'`, que está **público e compartilhado para leitura**, permitindo que os scripts funcionem de forma pronta para qualquer usuário do Earth Engine.
