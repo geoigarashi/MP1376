@@ -1,0 +1,167 @@
+{
+  ".vscode/settings.json": {
+    "mtime": 1785873924.1146457,
+    "ast_hash": "4187c9ec9a7b623c0ac5d1ca338cb852",
+    "semantic_hash": "4187c9ec9a7b623c0ac5d1ca338cb852"
+  },
+  "anomalias.py": {
+    "mtime": 1785870153.3643067,
+    "ast_hash": "d2d4fa22643f26f1a65a76d6d53b1447",
+    "semantic_hash": "d2d4fa22643f26f1a65a76d6d53b1447"
+  },
+  "app.py": {
+    "mtime": 1785870150.2879221,
+    "ast_hash": "a38cc16d4163475add25e69c2088aae1",
+    "semantic_hash": "a38cc16d4163475add25e69c2088aae1"
+  },
+  "climatologia.py": {
+    "mtime": 1785866965.656965,
+    "ast_hash": "c014e25047c55a6dcb85a59211e0d183",
+    "semantic_hash": "c014e25047c55a6dcb85a59211e0d183"
+  },
+  "config.py": {
+    "mtime": 1785868479.3653855,
+    "ast_hash": "cf79f1b41e22f93501bbec5bbfb2ba4c",
+    "semantic_hash": "cf79f1b41e22f93501bbec5bbfb2ba4c"
+  },
+  "observados.py": {
+    "mtime": 1785868481.8048527,
+    "ast_hash": "66f361389c2b3557e7c8c32ad4bac9c6",
+    "semantic_hash": "66f361389c2b3557e7c8c32ad4bac9c6"
+  },
+  "parametros.py": {
+    "mtime": 1785869461.2812128,
+    "ast_hash": "26281741c6c67f88ccdc3479261affeb",
+    "semantic_hash": "26281741c6c67f88ccdc3479261affeb"
+  },
+  "perfis/perfil_anomalias_igarashi.json": {
+    "mtime": 1785869649.1874113,
+    "ast_hash": "de4f1d8fce8771f7dcd2997a62655080",
+    "semantic_hash": "de4f1d8fce8771f7dcd2997a62655080"
+  },
+  "validacoes.py": {
+    "mtime": 1785866971.6176205,
+    "ast_hash": "2c90a0f8c74cdbd73267408a0053b836",
+    "semantic_hash": "2c90a0f8c74cdbd73267408a0053b836"
+  },
+  "C:\\Python\\MP1376\\anomalias.py": {
+    "mtime": 1785870153.3643067,
+    "ast_hash": "d2d4fa22643f26f1a65a76d6d53b1447",
+    "semantic_hash": ""
+  },
+  "C:\\Python\\MP1376\\app.py": {
+    "mtime": 1785876531.7621202,
+    "ast_hash": "df91cdcb16dd3ca5ea3ffdd1632a507c",
+    "semantic_hash": ""
+  },
+  "C:\\Python\\MP1376\\climatologia.py": {
+    "mtime": 1785866965.656965,
+    "ast_hash": "c014e25047c55a6dcb85a59211e0d183",
+    "semantic_hash": ""
+  },
+  "C:\\Python\\MP1376\\config.py": {
+    "mtime": 1785868479.3653855,
+    "ast_hash": "cf79f1b41e22f93501bbec5bbfb2ba4c",
+    "semantic_hash": ""
+  },
+  "C:\\Python\\MP1376\\observados.py": {
+    "mtime": 1785868481.8048527,
+    "ast_hash": "66f361389c2b3557e7c8c32ad4bac9c6",
+    "semantic_hash": ""
+  },
+  "C:\\Python\\MP1376\\parametros.py": {
+    "mtime": 1785869461.2812128,
+    "ast_hash": "26281741c6c67f88ccdc3479261affeb",
+    "semantic_hash": ""
+  },
+  "C:\\Python\\MP1376\\validacoes.py": {
+    "mtime": 1785866971.6176205,
+    "ast_hash": "2c90a0f8c74cdbd73267408a0053b836",
+    "semantic_hash": ""
+  },
+  "C:\\Python\\MP1376\\.claude\\settings.json": {
+    "mtime": 1785874391.1006708,
+    "ast_hash": "e7454b53e64e8f9905a2175cda3a757a",
+    "semantic_hash": ""
+  },
+  "C:\\Python\\MP1376\\.vscode\\settings.json": {
+    "mtime": 1785873924.1146457,
+    "ast_hash": "4187c9ec9a7b623c0ac5d1ca338cb852",
+    "semantic_hash": ""
+  },
+  "C:\\Python\\MP1376\\assets\\consolidado\\parametros_execucao_anomalias.json": {
+    "mtime": 1785876508.5120578,
+    "ast_hash": "0b002da57f81960536b50e22b399244a",
+    "semantic_hash": ""
+  },
+  "C:\\Python\\MP1376\\perfis\\perfil_anomalias_igarashi.json": {
+    "mtime": 1785869649.1874113,
+    "ast_hash": "de4f1d8fce8771f7dcd2997a62655080",
+    "semantic_hash": ""
+  },
+  "C:\\Python\\MP1376\\CLAUDE.md": {
+    "mtime": 1785874391.0981555,
+    "ast_hash": "8a6643a420fdad6bfb583523bc6cef16",
+    "semantic_hash": ""
+  },
+  "C:\\Python\\MP1376\\.agents\\rules\\graphify.md": {
+    "mtime": 1785874413.0136032,
+    "ast_hash": "a0e4d192b9e2e17256124dbfc8e24e6a",
+    "semantic_hash": ""
+  },
+  "C:\\Python\\MP1376\\.agents\\workflows\\graphify.md": {
+    "mtime": 1785874413.0146072,
+    "ast_hash": "637776aa6f7496d069afe7520c845c8a",
+    "semantic_hash": ""
+  },
+  "C:\\Python\\MP1376\\.claude\\CLAUDE.md": {
+    "mtime": 1785874391.0976458,
+    "ast_hash": "c232166e6492ba1ed955030b16979b05",
+    "semantic_hash": ""
+  },
+  "C:\\Python\\MP1376\\.claude\\skills\\graphify\\SKILL.md": {
+    "mtime": 1785874391.095622,
+    "ast_hash": "60dae20a917d4f50294ef7f88470cf53",
+    "semantic_hash": ""
+  },
+  "C:\\Python\\MP1376\\.claude\\skills\\graphify\\references\\add-watch.md": {
+    "mtime": 1783790695.4739244,
+    "ast_hash": "d59d027fe449f06aa03905a01184e779",
+    "semantic_hash": ""
+  },
+  "C:\\Python\\MP1376\\.claude\\skills\\graphify\\references\\exports.md": {
+    "mtime": 1783790695.4739244,
+    "ast_hash": "9da2a2152e60a22f07f05fed5158f287",
+    "semantic_hash": ""
+  },
+  "C:\\Python\\MP1376\\.claude\\skills\\graphify\\references\\extraction-spec.md": {
+    "mtime": 1783790695.4739244,
+    "ast_hash": "42fef56a01698118f7fd722acdadea34",
+    "semantic_hash": ""
+  },
+  "C:\\Python\\MP1376\\.claude\\skills\\graphify\\references\\github-and-merge.md": {
+    "mtime": 1783790695.475367,
+    "ast_hash": "cde13df085e4c492aeb7ba298a996d0d",
+    "semantic_hash": ""
+  },
+  "C:\\Python\\MP1376\\.claude\\skills\\graphify\\references\\hooks.md": {
+    "mtime": 1783790695.475367,
+    "ast_hash": "3f545db6ce646650bb9de588f5512a27",
+    "semantic_hash": ""
+  },
+  "C:\\Python\\MP1376\\.claude\\skills\\graphify\\references\\query.md": {
+    "mtime": 1783790695.4763756,
+    "ast_hash": "3c46f8ad006874260614ed8657d02307",
+    "semantic_hash": ""
+  },
+  "C:\\Python\\MP1376\\.claude\\skills\\graphify\\references\\transcribe.md": {
+    "mtime": 1783790695.4763756,
+    "ast_hash": "67b6a5fa6c0974e18f60db9f8932fbd8",
+    "semantic_hash": ""
+  },
+  "C:\\Python\\MP1376\\.claude\\skills\\graphify\\references\\update.md": {
+    "mtime": 1783790695.4763756,
+    "ast_hash": "c698309979460d0f02ba616417844399",
+    "semantic_hash": ""
+  }
+}

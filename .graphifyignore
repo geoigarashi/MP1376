@@ -1,0 +1,7 @@
+# Ignorar pastas de dados grandes e caches durante o escaneamento do Graphify
+assets/
+__pycache__/
+.venv/
+.ruff_cache/
+.git/
+perfis/
