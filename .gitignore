@@ -23,7 +23,6 @@ CLAUDE.md
 graphify-out/
 .graphifyignore
 
-# Conjuntos de dados pesados e produtos gerados
-assets/*.csv
+# Produtos gerados e relatórios consolidados locais
 assets/consolidado/
 perfis/*.json
